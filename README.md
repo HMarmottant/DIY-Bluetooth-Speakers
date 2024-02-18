@@ -50,15 +50,34 @@ Note : DSP rquiers a programming board with is around 30 €
 
 * [DAYTON AUDIO DSA135-8](https://www.audiophonics.fr/en/woofer/dayton-audio-dsa135-8-designer-series-speaker-driver-woofer-aluminum-50w-8-ohm-87db-51hz-9000hz-o133cm-p-13071.html)
 
+* [Dayton Audio SIG150-4](https://www.audiophonics.fr/en/woofer/dayton-audio-sig150-4-speaker-driver-woofer-midbass-aluminum-60w-4-91db-60hz-4000hz-o133cm-p-18165.html)
+
+* [DAYTON AUDIO TCP115-4](https://www.audiophonics.fr/en/midrange-midbass-full-range/dayton-audio-tcp115-4-speaker-driver-midbass-paper-40w-4-ohm-87db-55hz-5000hz-o10cm-p-12520.html)
+
+
 ### Tweeter
 
 * [DAYTON AUDIO NHP25Ti-4](https://www.audiophonics.fr/en/tweeter/dayton-audio-nhp25ti-4-speaker-driver-dome-tweeter-40w-4-ohm-94db-3000hz-20khz-o25cm-p-13388.html)
 
+* [DAYTON AUDIO DC25T-8](https://www.audiophonics.fr/en/tweeter/dayton-audio-dc25t-8-speaker-driver-p-18478.html)
+
 ## The final speaker setup 
 
- * [TINYSINE TSA8804](https://www.audiophonics.fr/fr/modules-amplificateurs/tinysine-tsa8804-module-amplificateur-tda7498e-bluetooth-51-dsp-4x100w-4-ohm-p-17304.html) (4x100W [DSP possible]
+### Amp
+
+ * [TINYSINE TSA8804](https://www.audiophonics.fr/fr/modules-amplificateurs/tinysine-tsa8804-module-amplificateur-tda7498e-bluetooth-51-dsp-4x100w-4-ohm-p-17304.html) 4 x 100W
+
+### Woofer
 
  * 2 x [DAYTON AUDIO GF180-4](https://www.audiophonics.fr/en/woofer/dayton-audio-gf180-4-speaker-driver-woofer-glass-fiber-40w-4-ohm-91db-45hz-5000hz-o165cm-p-15942.html)
+
+    **or**
+
+ * 2 x [DAYTON AUDIO SIG150-4](https://www.audiophonics.fr/en/woofer/dayton-audio-sig150-4-speaker-driver-woofer-midbass-aluminum-60w-4-91db-60hz-4000hz-o133cm-p-18165.html)
+
+### Tweeter
+
+* 2 x [DAYTON AUDIO NHP25Ti-4](https://www.audiophonics.fr/en/tweeter/dayton-audio-nhp25ti-4-speaker-driver-dome-tweeter-40w-4-ohm-94db-3000hz-20khz-o25cm-p-13388.html)
 
 
 
