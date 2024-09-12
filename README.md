@@ -38,7 +38,6 @@ Note : DSP rquiers a programming board with is around 30 €
 
 [DSP possible](https://www.audiophonics.fr/fr/dsp-processeurs-av/tinysine-usbi-jtag-dsp-programmateur-sigma-dsp-p-14836.html)
 
-
 * [Sure Electronics AA-JA32172](https://www.soundimports.eu/en/sure-electronics-aa-ja32172.html) (2 x 50 W DSP possible)
 * [Dayton Audio KAB250v4](https://www.soundimports.eu/en/dayton-audio-kab-250.html) (2 x 50 W DSP possible)
 * [ZHITING Bluetooth Amplifier Board Module 2x50W](https://www.amazon.fr/ZHITING-Bluetooth-Amplifier-Digital-Channel/dp/B088NFHMND/ref=sr_1_5?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2KI984L4FNKH0&keywords=dsp+bluetooth+amp&qid=1706698367&sprefix=dsp+bluetooth+amp%2Caps%2C67&sr=8-5)
@@ -46,24 +45,22 @@ Note : DSP rquiers a programming board with is around 30 €
 
 ## Speakers
 
-### Woofer / Full Range
+### Woofer
 
 * [DAYTON AUDIO LW150-4](https://www.audiophonics.fr/en/woofer/dayton-audio-lw150-4-speaker-driver-p-18481.html)
+* [DAYTON AUDIO DCS205-4](https://www.audiophonics.fr/en/hifi-dayton-audio/dayton-audio-dcs205-4-classic-speaker-driver-subwoofer-150w-4-ohm-89db-30hz-200hz-o20cm-p-12688.html?search_query=dcs205&fast_search=fs)
+
+### Full Range
 
 * [DAYTON AUDIO GF180-4](https://www.audiophonics.fr/en/woofer/dayton-audio-gf180-4-speaker-driver-woofer-glass-fiber-40w-4-ohm-91db-45hz-5000hz-o165cm-p-15942.html)
-
 * [Dayton Audio ND140-8](https://www.audiophonics.fr/en/midrange-midbass-full-range/dayton-audio-nd140-8-speaker-driver-midbass-midrange-aluminium-40w-8-ohm-845db-54hz-8000hz-o133cm-p-13145.html)
-
 * [DAYTON AUDIO DSA135-8](https://www.audiophonics.fr/en/woofer/dayton-audio-dsa135-8-designer-series-speaker-driver-woofer-aluminum-50w-8-ohm-87db-51hz-9000hz-o133cm-p-13071.html)
-
 * [Dayton Audio SIG150-4](https://www.audiophonics.fr/en/woofer/dayton-audio-sig150-4-speaker-driver-woofer-midbass-aluminum-60w-4-91db-60hz-4000hz-o133cm-p-18165.html)
-
 * [DAYTON AUDIO TCP115-4](https://www.audiophonics.fr/en/midrange-midbass-full-range/dayton-audio-tcp115-4-speaker-driver-midbass-paper-40w-4-ohm-87db-55hz-5000hz-o10cm-p-12520.html)
 
 ### Tweeter
 
 * [DAYTON AUDIO NHP25Ti-4](https://www.audiophonics.fr/en/tweeter/dayton-audio-nhp25ti-4-speaker-driver-dome-tweeter-40w-4-ohm-94db-3000hz-20khz-o25cm-p-13388.html)
-
 * [DAYTON AUDIO DC25T-8](https://www.audiophonics.fr/en/tweeter/dayton-audio-dc25t-8-speaker-driver-p-18478.html)
 
 ## The final speaker setup
@@ -98,3 +95,7 @@ Note : DSP rquiers a programming board with is around 30 €
 # Interesting links
 
 [https://loudspeakerdatabase.com](https://loudspeakerdatabase.com)
+
+[https://www.youtube.com/watch?v=YjHKkDwsekw](https://www.youtube.com/watch?v=YjHKkDwsekw)
+
+[https://www.commeunetabli.fr/](https://www.commeunetabli.fr/)
