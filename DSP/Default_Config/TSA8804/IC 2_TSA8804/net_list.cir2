@@ -1,0 +1,13 @@
+0 ICSigma100In1 O_C0_A0_P1_out Link7 O_C0_A0_P2_out Link8
+1 GPIAlg1 O_C55_A0_P1_out Link4
+2 GPIAlg2 O_C77_A0_P1_out Link3
+3 GPIAlg3 O_C79_A0_P1_out Link5
+4 GPIAlg4 O_C81_A0_P1_out Link6
+5 LogicAlgst1 I_C59_A0_P1_in Link3 I_C59_A0_P2_in Link4 O_C59_A0_P3_out Link0
+6 LogicAlgst2 I_C63_A0_P1_in Link5 I_C63_A0_P2_in Link6 O_C63_A0_P3_out Link1
+7 ICSigma100Out1 I_C11_A0_P1_in Link7
+8 ICSigma100Out4 I_C37_A0_P1_in Link8
+9 ICSigma100Out2 I_C13_A0_P1_in Link7
+10 ICSigma100Out3 I_C35_A0_P1_in Link8
+11 LogicAlgst3 I_C67_A0_P1_in Link0 I_C67_A0_P2_in Link1 O_C67_A0_P3_out Link2
+12 GPOAlg2 I_C40_A0_P1_in Link2
