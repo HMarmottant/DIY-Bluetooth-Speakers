@@ -59,17 +59,22 @@ void setup() {
 
   // Comment out the three code lines above and use this step instead if EEPROM is present
   // The last parameter in writeFirmware is the FW version, and prevents the MCU from overwriting on every reboot
-  if (res == 2) {
+  if (res == 0) {
     Serial.println("Flashing...");
     ee.writeFirmware(DSP_eeprom_firmware, sizeof(DSP_eeprom_firmware), -1);
+    Serial.println("Reset...");
     dsp.reset();
     delay(2000);  // Wait for the FW to load from the EEPROM
     Serial.println("Done");
     Serial.println("");
   }
+  pinMode(PIN_A5, INPUT);
 }
 
 
 void loop() {
   // Nothing to do here!
+  int res = analogRead(PIN_A5);
+  Serial.println(res);
+  delay(1000);
 }
