@@ -1,8 +1,8 @@
 /*
- * File:           E:\Documents\DIY Bluetooth Speakers\DSP\Custom_Config\SigmaStudio_project\Export\0_template_IC_2_REG.h
+ * File:           E:\Documents\DIY Bluetooth Speakers\DSP\Test_Config\SigmaStudio_project\0_template_IC_2.h
  *
- * Created:        Saturday, October 19, 2024 2:20:11 PM
- * Description:    0_template:IC 2 control register definitions.
+ * Created:        Saturday, October 19, 2024 2:14:38 PM
+ * Description:    0_template:IC 2 program data.
  *
  * This software is distributed in the hope that it will be useful,
  * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
@@ -16,8 +16,23 @@
  *
  * Copyright ©2024 Analog Devices, Inc. All rights reserved.
  */
-#ifndef __0_TEMPLATE_IC_2_REG_H__
-#define __0_TEMPLATE_IC_2_REG_H__
+#ifndef __0_TEMPLATE_IC_2_H__
+#define __0_TEMPLATE_IC_2_H__
 
+#include "SigmaStudioFW.h"
+#include "0_template_IC_2_REG.h"
+
+#define DEVICE_ARCHITECTURE_IC_2                  "E2Prom"
+#define DEVICE_ADDR_IC_2                          0xA0
+
+
+
+/*
+ * Default Download
+ */
+#define DEFAULT_DOWNLOAD_SIZE_IC_2 0
+
+void default_download_IC_2() {
+}
 
 #endif

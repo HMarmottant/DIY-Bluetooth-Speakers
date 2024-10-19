@@ -18,44 +18,32 @@
     <IC name=" IC 1 " type="DSPSigma100">
         <Schematic>
             <Algorithm name="ICSigma100In1" friendlyname="170x\140x input " cell="Input1 " location="{X=98, Y=232} " Growth="10 " GrowthB="0 " FS="48000">
-                <Link pin="O_C0_A0_P1_out" dir="out" link="Link6" />
-                <Link pin="O_C0_A0_P2_out" dir="out" link="Link7" />
+                <Link pin="O_C0_A0_P1_out" dir="out" link="Link2" />
+                <Link pin="O_C0_A0_P2_out" dir="out" link="Link3" />
             </Algorithm>
-            <Algorithm name="SingleCtrlSplit2" friendlyname="Splitter Single " cell="S Splitter1_2 " location="{X=216, Y=183.642} " Growth="2 " GrowthB="0">
-                <Link pin="I_C132_A0_P1_in" dir="in" link="Link6" />
-                <Link pin="O_C132_A0_P2_out" dir="out" link="Link8" />
-                <Link pin="O_C132_A0_P3_out" dir="out" link="Link10" />
+            <Algorithm name="SingleCtrlSplit2" friendlyname="Splitter Single " cell="S Splitter1_2 " location="{X=204, Y=183.642} " Growth="2 " GrowthB="0">
+                <Link pin="I_C132_A0_P1_in" dir="in" link="Link2" />
+                <Link pin="O_C132_A0_P2_out" dir="out" link="Link4" />
+                <Link pin="O_C132_A0_P3_out" dir="out" link="Link7" />
             </Algorithm>
             <Algorithm name="SingleCtrlSplit3" friendlyname="Splitter Single " cell="S Splitter1_3 " location="{X=218, Y=317.5926} " Growth="2 " GrowthB="0">
-                <Link pin="I_C136_A0_P1_in" dir="in" link="Link7" />
-                <Link pin="O_C136_A0_P2_out" dir="out" link="Link9" />
-                <Link pin="O_C136_A0_P3_out" dir="out" link="Link11" />
+                <Link pin="I_C136_A0_P1_in" dir="in" link="Link3" />
+                <Link pin="O_C136_A0_P2_out" dir="out" link="Link5" />
+                <Link pin="O_C136_A0_P3_out" dir="out" link="Link6" />
             </Algorithm>
             <Algorithm name="SingleCtrlMixer19401" friendlyname="Signal MixerC " cell="Mg1 " location="{X=395, Y=164} " Growth="2 " GrowthB="0">
-                <Link pin="I_C104_A0_P2_in" dir="in" link="Link8" />
-                <Link pin="I_C104_A0_P3_in" dir="in" link="Link9" />
-                <Link pin="O_C104_A0_P1_out" dir="out" link="Link3" />
-            </Algorithm>
-            <Algorithm name="limiterAlg1" friendlyname="Limiter with Indicator " cell="Limiter 1 " location="{X=538, Y=278} " Growth="0 " GrowthB="0">
-                <Link pin="I_C108_A0_P1_in" dir="in" link="Link10" />
-                <Link pin="O_C108_A0_P2_out" dir="out" link="Link4" />
-            </Algorithm>
-            <Algorithm name="limiterAlg2" friendlyname="Limiter with Indicator " cell="Limiter 1_2 " location="{X=538, Y=417} " Growth="0 " GrowthB="0">
-                <Link pin="I_C113_A0_P1_in" dir="in" link="Link11" />
-                <Link pin="O_C113_A0_P2_out" dir="out" link="Link5" />
-            </Algorithm>
-            <Algorithm name="limiterAlg3" friendlyname="Limiter with Indicator " cell="Limiter 1_3 " location="{X=538, Y=117} " Growth="0 " GrowthB="0">
-                <Link pin="I_C118_A0_P1_in" dir="in" link="Link3" />
-                <Link pin="O_C118_A0_P2_out" dir="out" link="Link2" />
-            </Algorithm>
-            <Algorithm name="ICSigma100Out3" friendlyname="170x\140x output " cell="Output1_2 " location="{X=718, Y=312.5} " Growth="0 " GrowthB="0">
-                <Link pin="I_C17_A0_P1_in" dir="in" link="Link4" />
+                <Link pin="I_C104_A0_P2_in" dir="in" link="Link4" />
+                <Link pin="I_C104_A0_P3_in" dir="in" link="Link5" />
+                <Link pin="O_C104_A0_P1_out" dir="out" link="Link8" />
             </Algorithm>
             <Algorithm name="ICSigma100Out4" friendlyname="170x\140x output " cell="Output2_2 " location="{X=720, Y=451.5} " Growth="0 " GrowthB="0">
-                <Link pin="I_C20_A0_P1_in" dir="in" link="Link5" />
+                <Link pin="I_C20_A0_P1_in" dir="in" link="Link6" />
+            </Algorithm>
+            <Algorithm name="ICSigma100Out3" friendlyname="170x\140x output " cell="Output1_2 " location="{X=718, Y=312.5} " Growth="0 " GrowthB="0">
+                <Link pin="I_C17_A0_P1_in" dir="in" link="Link7" />
             </Algorithm>
             <Algorithm name="SingleCtrlSplit1" friendlyname="Splitter Single " cell="S Splitter1 " location="{X=673, Y=125} " Growth="2 " GrowthB="0">
-                <Link pin="I_C84_A0_P1_in" dir="in" link="Link2" />
+                <Link pin="I_C84_A0_P1_in" dir="in" link="Link8" />
                 <Link pin="O_C84_A0_P2_out" dir="out" link="Link0" />
                 <Link pin="O_C84_A0_P3_out" dir="out" link="Link1" />
             </Algorithm>
