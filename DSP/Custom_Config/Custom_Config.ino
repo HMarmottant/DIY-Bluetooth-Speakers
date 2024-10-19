@@ -29,43 +29,47 @@ SigmaDSP dsp(Wire, DSP_I2C_ADDRESS, 48000.00f /*,12*/);
 // The second parameter is the EEPROM i2c address, which is defined in the parameter file
 // The third parameter is the EEPROM size in kilobits (kb)
 // An optional fourth parameter is the pin to toggle while writing content to EEPROM
-//DSPEEPROM ee(Wire, EEPROM_I2C_ADDRESS, 256, LED_BUILTIN);
+DSPEEPROM ee(Wire, EEPROM_I2C_ADDRESS, 256, LED_BUILTIN);
 
 
-void setup()
-{
+void setup() {
   Serial.begin(9600);
   Serial.println(F("SigmaDSP 0_Template example\n"));
 
   Wire.begin();
   dsp.begin();
-  //ee.begin();
+  ee.begin();
 
   delay(2000);
 
 
   Serial.println(F("Pinging i2c lines...\n0 -> deveice is present\n2 -> device is not present"));
-  Serial.print(F("DSP response: "));
-  Serial.println(dsp.ping());
-  //Serial.print(F("EEPROM ping: "));
-  //Serial.println(ee.ping());
+  // Serial.print(F("DSP response: "));
+  // Serial.println(dsp.ping());
+  Serial.print(F("EEPROM ping: "));
 
 
   // Use this step if no EEPROM is present
-  Serial.print(F("\nLoading DSP program... "));
-  loadProgram(dsp);
-  Serial.println("Done!\n");
+  // Serial.print(F("\nLoading DSP program... "));
+  // loadProgram(dsp);
+  // Serial.println("Done!\n");
 
+  uint8_t res = ee.ping();
+  Serial.println(res);
 
   // Comment out the three code lines above and use this step instead if EEPROM is present
   // The last parameter in writeFirmware is the FW version, and prevents the MCU from overwriting on every reboot
-  //ee.writeFirmware(DSP_eeprom_firmware, sizeof(DSP_eeprom_firmware), 0);
-  //dsp.reset();
-  //delay(2000); // Wait for the FW to load from the EEPROM
+  if (res == 2) {
+    Serial.println("Flashing...");
+    ee.writeFirmware(DSP_eeprom_firmware, sizeof(DSP_eeprom_firmware), -1);
+    dsp.reset();
+    delay(2000);  // Wait for the FW to load from the EEPROM
+    Serial.println("Done");
+    Serial.println("");
+  }
 }
 
 
-void loop()
-{
+void loop() {
   // Nothing to do here!
 }
