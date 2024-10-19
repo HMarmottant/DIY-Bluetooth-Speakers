@@ -1,8 +1,8 @@
 /*
- * File:           E:\Documents\DIY Bluetooth Speakers\DSP\Custom_Config\SigmaStudio_project\Export\0_template_IC_2_REG.h
+ * File:           defines.h
  *
- * Created:        Saturday, October 19, 2024 2:20:11 PM
- * Description:    0_template:IC 2 control register definitions.
+ * Created:        Tuesday, October 6, 2020 4:08:19 PM
+ * Description:    0_template IC default download data definitions.
  *
  * This software is distributed in the hope that it will be useful,
  * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
@@ -14,10 +14,16 @@
  * are intended for resale to audio product end users. This software
  * may not be distributed whole or in any part to third parties.
  *
- * Copyright ©2024 Analog Devices, Inc. All rights reserved.
+ * Copyright ©2020 Analog Devices, Inc. All rights reserved.
  */
-#ifndef __0_TEMPLATE_IC_2_REG_H__
-#define __0_TEMPLATE_IC_2_REG_H__
+#ifndef __DEFINES_H__
+#define __DEFINES_H__
+
+#define BufferSize_IC_1     	9254
+#define NumTransactions_IC_1	5
+
+#define BufferSize_IC_2     	0
+#define NumTransactions_IC_2	0
 
 
 #endif

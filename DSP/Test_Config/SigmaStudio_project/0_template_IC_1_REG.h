@@ -1,7 +1,7 @@
 /*
- * File:           E:\Documents\DIY Bluetooth Speakers\DSP\Custom_Config\SigmaStudio_project\Export\0_template_IC_1_REG.h
+ * File:           E:\Documents\DIY Bluetooth Speakers\DSP\Test_Config\SigmaStudio_project\0_template_IC_1_REG.h
  *
- * Created:        Saturday, October 19, 2024 2:20:11 PM
+ * Created:        Saturday, October 19, 2024 2:14:38 PM
  * Description:    0_template:IC 1 control register definitions.
  *
  * This software is distributed in the hope that it will be useful,
