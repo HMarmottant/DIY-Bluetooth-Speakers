@@ -1,6 +1,6 @@
 Cell Name         = S Splitter1
 Parameter Name    = SingleCtrlSplit1
-Parameter Address = 48
+Parameter Address = 88
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -9,7 +9,7 @@ Parameter Data :
 
 Cell Name         = Mg1
 Parameter Name    = SingleCtrlMixer19401
-Parameter Address = 2
+Parameter Address = 57
 Parameter Value   = 0.5
 Parameter Data :
 0x00, 0x40, 0x00, 0x00, 
@@ -18,7 +18,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1slope_1
-Parameter Address = 3
+Parameter Address = 42
 Parameter Value   = -0.014285683631897
 Parameter Data :
 0x0F, 0xFE, 0x2B, 0xE3, 
@@ -27,7 +27,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1inter_1
-Parameter Address = 4
+Parameter Address = 43
 Parameter Value   = 0.27142858505249
 Parameter Data :
 0x00, 0x22, 0xBE, 0x2C, 
@@ -36,7 +36,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1slope_2
-Parameter Address = 5
+Parameter Address = 44
 Parameter Value   = -0.166666626930237
 Parameter Data :
 0x0F, 0xEA, 0xAA, 0xAB, 
@@ -45,7 +45,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1inter_2
-Parameter Address = 6
+Parameter Address = 45
 Parameter Value   = 0.833333373069763
 Parameter Data :
 0x00, 0x6A, 0xAA, 0xAB, 
@@ -54,7 +54,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1slope_3
-Parameter Address = 7
+Parameter Address = 46
 Parameter Value   = -0.79365074634552
 Parameter Data :
 0x0F, 0x9A, 0x69, 0xA7, 
@@ -63,7 +63,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1inter_3
-Parameter Address = 8
+Parameter Address = 47
 Parameter Value   = 1.98412692546844
 Parameter Data :
 0x00, 0xFD, 0xF7, 0xDF, 
@@ -72,7 +72,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1slope_4
-Parameter Address = 9
+Parameter Address = 48
 Parameter Value   = -15.5279502868652
 Parameter Data :
 0x08, 0x3C, 0x6C, 0x20, 
@@ -81,7 +81,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1inter_4
-Parameter Address = 10
+Parameter Address = 49
 Parameter Value   = 7.91925466060638
 Parameter Data :
 0x03, 0xF5, 0xAA, 0x23, 
@@ -90,7 +90,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1comp1
-Parameter Address = 11
+Parameter Address = 50
 Parameter Value   = 3
 Parameter Data :
 0x01, 0x80, 0x00, 0x00, 
@@ -99,7 +99,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1comp2
-Parameter Address = 12
+Parameter Address = 51
 Parameter Value   = 2
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -108,7 +108,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1comp3
-Parameter Address = 13
+Parameter Address = 52
 Parameter Value   = 0.399999976158142
 Parameter Data :
 0x00, 0x33, 0x33, 0x33, 
@@ -117,7 +117,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1RMS_MONO_TCONST
-Parameter Address = 15
+Parameter Address = 54
 Parameter Value   = 4.79221343994141E-05
 Parameter Data :
 0x00, 0x00, 0x01, 0x92, 
@@ -126,7 +126,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1threshold
-Parameter Address = 14
+Parameter Address = 53
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -135,7 +135,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1decay
-Parameter Address = 16
+Parameter Address = 55
 Parameter Value   = 0.000244140625
 Parameter Data :
 0x00, 0x00, 0x08, 0x00, 
@@ -144,7 +144,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1
 Parameter Name    = limiterAlg1decaycomplement
-Parameter Address = 17
+Parameter Address = 56
 Parameter Value   = 0.99951171875
 Parameter Data :
 0x00, 0x7F, 0xF0, 0x00, 
@@ -153,7 +153,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2slope_1
-Parameter Address = 18
+Parameter Address = 58
 Parameter Value   = -0.014285683631897
 Parameter Data :
 0x0F, 0xFE, 0x2B, 0xE3, 
@@ -162,7 +162,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2inter_1
-Parameter Address = 19
+Parameter Address = 59
 Parameter Value   = 0.27142858505249
 Parameter Data :
 0x00, 0x22, 0xBE, 0x2C, 
@@ -171,7 +171,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2slope_2
-Parameter Address = 20
+Parameter Address = 60
 Parameter Value   = -0.166666626930237
 Parameter Data :
 0x0F, 0xEA, 0xAA, 0xAB, 
@@ -180,7 +180,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2inter_2
-Parameter Address = 21
+Parameter Address = 61
 Parameter Value   = 0.833333373069763
 Parameter Data :
 0x00, 0x6A, 0xAA, 0xAB, 
@@ -189,7 +189,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2slope_3
-Parameter Address = 22
+Parameter Address = 62
 Parameter Value   = -0.79365074634552
 Parameter Data :
 0x0F, 0x9A, 0x69, 0xA7, 
@@ -198,7 +198,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2inter_3
-Parameter Address = 23
+Parameter Address = 63
 Parameter Value   = 1.98412692546844
 Parameter Data :
 0x00, 0xFD, 0xF7, 0xDF, 
@@ -207,7 +207,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2slope_4
-Parameter Address = 24
+Parameter Address = 64
 Parameter Value   = -15.5279502868652
 Parameter Data :
 0x08, 0x3C, 0x6C, 0x20, 
@@ -216,7 +216,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2inter_4
-Parameter Address = 25
+Parameter Address = 65
 Parameter Value   = 7.91925466060638
 Parameter Data :
 0x03, 0xF5, 0xAA, 0x23, 
@@ -225,7 +225,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2comp1
-Parameter Address = 26
+Parameter Address = 66
 Parameter Value   = 3
 Parameter Data :
 0x01, 0x80, 0x00, 0x00, 
@@ -234,7 +234,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2comp2
-Parameter Address = 27
+Parameter Address = 67
 Parameter Value   = 2
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -243,7 +243,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2comp3
-Parameter Address = 28
+Parameter Address = 68
 Parameter Value   = 0.399999976158142
 Parameter Data :
 0x00, 0x33, 0x33, 0x33, 
@@ -252,7 +252,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2RMS_MONO_TCONST
-Parameter Address = 30
+Parameter Address = 70
 Parameter Value   = 4.79221343994141E-05
 Parameter Data :
 0x00, 0x00, 0x01, 0x92, 
@@ -261,7 +261,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2threshold
-Parameter Address = 29
+Parameter Address = 69
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -270,7 +270,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2decay
-Parameter Address = 31
+Parameter Address = 71
 Parameter Value   = 0.000244140625
 Parameter Data :
 0x00, 0x00, 0x08, 0x00, 
@@ -279,7 +279,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_2
 Parameter Name    = limiterAlg2decaycomplement
-Parameter Address = 32
+Parameter Address = 72
 Parameter Value   = 0.99951171875
 Parameter Data :
 0x00, 0x7F, 0xF0, 0x00, 
@@ -288,7 +288,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3slope_1
-Parameter Address = 33
+Parameter Address = 73
 Parameter Value   = -0.014285683631897
 Parameter Data :
 0x0F, 0xFE, 0x2B, 0xE3, 
@@ -297,7 +297,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3inter_1
-Parameter Address = 34
+Parameter Address = 74
 Parameter Value   = 0.27142858505249
 Parameter Data :
 0x00, 0x22, 0xBE, 0x2C, 
@@ -306,7 +306,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3slope_2
-Parameter Address = 35
+Parameter Address = 75
 Parameter Value   = -0.166666626930237
 Parameter Data :
 0x0F, 0xEA, 0xAA, 0xAB, 
@@ -315,7 +315,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3inter_2
-Parameter Address = 36
+Parameter Address = 76
 Parameter Value   = 0.833333373069763
 Parameter Data :
 0x00, 0x6A, 0xAA, 0xAB, 
@@ -324,7 +324,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3slope_3
-Parameter Address = 37
+Parameter Address = 77
 Parameter Value   = -0.79365074634552
 Parameter Data :
 0x0F, 0x9A, 0x69, 0xA7, 
@@ -333,7 +333,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3inter_3
-Parameter Address = 38
+Parameter Address = 78
 Parameter Value   = 1.98412692546844
 Parameter Data :
 0x00, 0xFD, 0xF7, 0xDF, 
@@ -342,7 +342,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3slope_4
-Parameter Address = 39
+Parameter Address = 79
 Parameter Value   = -15.5279502868652
 Parameter Data :
 0x08, 0x3C, 0x6C, 0x20, 
@@ -351,7 +351,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3inter_4
-Parameter Address = 40
+Parameter Address = 80
 Parameter Value   = 7.91925466060638
 Parameter Data :
 0x03, 0xF5, 0xAA, 0x23, 
@@ -360,7 +360,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3comp1
-Parameter Address = 41
+Parameter Address = 81
 Parameter Value   = 3
 Parameter Data :
 0x01, 0x80, 0x00, 0x00, 
@@ -369,7 +369,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3comp2
-Parameter Address = 42
+Parameter Address = 82
 Parameter Value   = 2
 Parameter Data :
 0x01, 0x00, 0x00, 0x00, 
@@ -378,7 +378,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3comp3
-Parameter Address = 43
+Parameter Address = 83
 Parameter Value   = 0.399999976158142
 Parameter Data :
 0x00, 0x33, 0x33, 0x33, 
@@ -387,7 +387,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3RMS_MONO_TCONST
-Parameter Address = 45
+Parameter Address = 85
 Parameter Value   = 4.79221343994141E-05
 Parameter Data :
 0x00, 0x00, 0x01, 0x92, 
@@ -396,7 +396,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3threshold
-Parameter Address = 44
+Parameter Address = 84
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -405,7 +405,7 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3decay
-Parameter Address = 46
+Parameter Address = 86
 Parameter Value   = 0.000244140625
 Parameter Data :
 0x00, 0x00, 0x08, 0x00, 
@@ -414,15 +414,195 @@ Parameter Data :
 
 Cell Name         = Limiter 1_3
 Parameter Name    = limiterAlg3decaycomplement
-Parameter Address = 47
+Parameter Address = 87
 Parameter Value   = 0.99951171875
 Parameter Data :
 0x00, 0x7F, 0xF0, 0x00, 
 
 
 
-Cell Name         = S Splitter1_2
-Parameter Name    = SingleCtrlSplit2
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B0_0
+Parameter Address = 1
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B1_0
+Parameter Address = 2
+Parameter Value   = 0.0168220996856689
+Parameter Data :
+0x00 ,	0x02 ,	0x27 ,	0x3A ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A1_0
+Parameter Address = 3
+Parameter Value   = 1.72432339191437
+Parameter Data :
+0x00 ,	0xDC ,	0xB6 ,	0xA1 ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B2_0
+Parameter Address = 4
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A2_0
+Parameter Address = 5
+Parameter Value   = -0.757967710494995
+Parameter Data :
+0x0F ,	0x9E ,	0xFA ,	0xEA ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B0_1
+Parameter Address = 6
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B1_1
+Parameter Address = 7
+Parameter Value   = 0.0168220996856689
+Parameter Data :
+0x00 ,	0x02 ,	0x27 ,	0x3A ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A1_1
+Parameter Address = 8
+Parameter Value   = 1.72432339191437
+Parameter Data :
+0x00 ,	0xDC ,	0xB6 ,	0xA1 ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B2_1
+Parameter Address = 9
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A2_1
+Parameter Address = 10
+Parameter Value   = -0.757967710494995
+Parameter Data :
+0x0F ,	0x9E ,	0xFA ,	0xEA ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B0_2
+Parameter Address = 11
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B1_2
+Parameter Address = 12
+Parameter Value   = -1.78344583511353
+Parameter Data :
+0x0F ,	0x1B ,	0xB8 ,	0x0C ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A1_2
+Parameter Address = 13
+Parameter Value   = 1.77168726921082
+Parameter Data :
+0x00 ,	0xE2 ,	0xC6 ,	0xA6 ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B2_2
+Parameter Address = 14
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A2_2
+Parameter Address = 15
+Parameter Value   = -0.795204281806946
+Parameter Data :
+0x0F ,	0x9A ,	0x36 ,	0xBF ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B0_3
+Parameter Address = 16
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B1_3
+Parameter Address = 17
+Parameter Value   = -1.78344583511353
+Parameter Data :
+0x0F ,	0x1B ,	0xB8 ,	0x0C ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A1_3
+Parameter Address = 18
+Parameter Value   = 1.77168726921082
+Parameter Data :
+0x00 ,	0xE2 ,	0xC6 ,	0xA6 ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1B2_3
+Parameter Address = 19
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1A2_3
+Parameter Address = 20
+Parameter Value   = -0.795204281806946
+Parameter Data :
+0x0F ,	0x9A ,	0x36 ,	0xBF ,	
+
+
+
+Cell Name         = Crossover1
+Parameter Name    = CrossoverFilter2WayAlgDP1LowInvert
 Parameter Address = 0
 Parameter Value   = 1
 Parameter Data :
@@ -430,9 +610,189 @@ Parameter Data :
 
 
 
-Cell Name         = S Splitter1_3
-Parameter Name    = SingleCtrlSplit3
-Parameter Address = 1
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B0_0
+Parameter Address = 22
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B1_0
+Parameter Address = 23
+Parameter Value   = 0.0168220996856689
+Parameter Data :
+0x00 ,	0x02 ,	0x27 ,	0x3A ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A1_0
+Parameter Address = 24
+Parameter Value   = 1.72432339191437
+Parameter Data :
+0x00 ,	0xDC ,	0xB6 ,	0xA1 ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B2_0
+Parameter Address = 25
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A2_0
+Parameter Address = 26
+Parameter Value   = -0.757967710494995
+Parameter Data :
+0x0F ,	0x9E ,	0xFA ,	0xEA ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B0_1
+Parameter Address = 27
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B1_1
+Parameter Address = 28
+Parameter Value   = 0.0168220996856689
+Parameter Data :
+0x00 ,	0x02 ,	0x27 ,	0x3A ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A1_1
+Parameter Address = 29
+Parameter Value   = 1.72432339191437
+Parameter Data :
+0x00 ,	0xDC ,	0xB6 ,	0xA1 ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B2_1
+Parameter Address = 30
+Parameter Value   = 0.00841104984283447
+Parameter Data :
+0x00 ,	0x01 ,	0x13 ,	0x9D ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A2_1
+Parameter Address = 31
+Parameter Value   = -0.757967710494995
+Parameter Data :
+0x0F ,	0x9E ,	0xFA ,	0xEA ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B0_2
+Parameter Address = 32
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B1_2
+Parameter Address = 33
+Parameter Value   = -1.78344583511353
+Parameter Data :
+0x0F ,	0x1B ,	0xB8 ,	0x0C ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A1_2
+Parameter Address = 34
+Parameter Value   = 1.77168726921082
+Parameter Data :
+0x00 ,	0xE2 ,	0xC6 ,	0xA6 ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B2_2
+Parameter Address = 35
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A2_2
+Parameter Address = 36
+Parameter Value   = -0.795204281806946
+Parameter Data :
+0x0F ,	0x9A ,	0x36 ,	0xBF ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B0_3
+Parameter Address = 37
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B1_3
+Parameter Address = 38
+Parameter Value   = -1.78344583511353
+Parameter Data :
+0x0F ,	0x1B ,	0xB8 ,	0x0C ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A1_3
+Parameter Address = 39
+Parameter Value   = 1.77168726921082
+Parameter Data :
+0x00 ,	0xE2 ,	0xC6 ,	0xA6 ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2B2_3
+Parameter Address = 40
+Parameter Value   = 0.891722917556763
+Parameter Data :
+0x00 ,	0x72 ,	0x23 ,	0xFA ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2A2_3
+Parameter Address = 41
+Parameter Value   = -0.795204281806946
+Parameter Data :
+0x0F ,	0x9A ,	0x36 ,	0xBF ,	
+
+
+
+Cell Name         = Crossover1_2
+Parameter Name    = CrossoverFilter2WayAlgDP2LowInvert
+Parameter Address = 21
 Parameter Value   = 1
 Parameter Data :
 0x00, 0x80, 0x00, 0x00, 
@@ -442,7 +802,62 @@ Parameter Data :
 Parameter data for: IC 1 (Hexadecimal format starting at parameter address 0)
 See also 0_template.hex file
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x00 , 	0x02 , 	0x27 , 	0x3A , 	
+0x00 , 	0xDC , 	0xB6 , 	0xA1 , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x0F , 	0x9E , 	0xFA , 	0xEA , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x00 , 	0x02 , 	0x27 , 	0x3A , 	
+0x00 , 	0xDC , 	0xB6 , 	0xA1 , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x0F , 	0x9E , 	0xFA , 	0xEA , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x1B , 	0xB8 , 	0x0C , 	
+0x00 , 	0xE2 , 	0xC6 , 	0xA6 , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x9A , 	0x36 , 	0xBF , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x1B , 	0xB8 , 	0x0C , 	
+0x00 , 	0xE2 , 	0xC6 , 	0xA6 , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x9A , 	0x36 , 	0xBF , 	
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x00 , 	0x02 , 	0x27 , 	0x3A , 	
+0x00 , 	0xDC , 	0xB6 , 	0xA1 , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x0F , 	0x9E , 	0xFA , 	0xEA , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x00 , 	0x02 , 	0x27 , 	0x3A , 	
+0x00 , 	0xDC , 	0xB6 , 	0xA1 , 	
+0x00 , 	0x01 , 	0x13 , 	0x9D , 	
+0x0F , 	0x9E , 	0xFA , 	0xEA , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x1B , 	0xB8 , 	0x0C , 	
+0x00 , 	0xE2 , 	0xC6 , 	0xA6 , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x9A , 	0x36 , 	0xBF , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x1B , 	0xB8 , 	0x0C , 	
+0x00 , 	0xE2 , 	0xC6 , 	0xA6 , 	
+0x00 , 	0x72 , 	0x23 , 	0xFA , 	
+0x0F , 	0x9A , 	0x36 , 	0xBF , 	
+0x0F , 	0xFE , 	0x2B , 	0xE3 , 	
+0x00 , 	0x22 , 	0xBE , 	0x2C , 	
+0x0F , 	0xEA , 	0xAA , 	0xAB , 	
+0x00 , 	0x6A , 	0xAA , 	0xAB , 	
+0x0F , 	0x9A , 	0x69 , 	0xA7 , 	
+0x00 , 	0xFD , 	0xF7 , 	0xDF , 	
+0x08 , 	0x3C , 	0x6C , 	0x20 , 	
+0x03 , 	0xF5 , 	0xAA , 	0x23 , 	
+0x01 , 	0x80 , 	0x00 , 	0x00 , 	
+0x01 , 	0x00 , 	0x00 , 	0x00 , 	
+0x00 , 	0x33 , 	0x33 , 	0x33 , 	
+0x00 , 	0x80 , 	0x00 , 	0x00 , 	
+0x00 , 	0x00 , 	0x01 , 	0x92 , 	
+0x00 , 	0x00 , 	0x08 , 	0x00 , 	
+0x00 , 	0x7F , 	0xF0 , 	0x00 , 	
 0x00 , 	0x40 , 	0x00 , 	0x00 , 	
 0x0F , 	0xFE , 	0x2B , 	0xE3 , 	
 0x00 , 	0x22 , 	0xBE , 	0x2C , 	
@@ -474,62 +889,7 @@ See also 0_template.hex file
 0x00 , 	0x00 , 	0x01 , 	0x92 , 	
 0x00 , 	0x00 , 	0x08 , 	0x00 , 	
 0x00 , 	0x7F , 	0xF0 , 	0x00 , 	
-0x0F , 	0xFE , 	0x2B , 	0xE3 , 	
-0x00 , 	0x22 , 	0xBE , 	0x2C , 	
-0x0F , 	0xEA , 	0xAA , 	0xAB , 	
-0x00 , 	0x6A , 	0xAA , 	0xAB , 	
-0x0F , 	0x9A , 	0x69 , 	0xA7 , 	
-0x00 , 	0xFD , 	0xF7 , 	0xDF , 	
-0x08 , 	0x3C , 	0x6C , 	0x20 , 	
-0x03 , 	0xF5 , 	0xAA , 	0x23 , 	
-0x01 , 	0x80 , 	0x00 , 	0x00 , 	
-0x01 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x33 , 	0x33 , 	0x33 , 	
 0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x01 , 	0x92 , 	
-0x00 , 	0x00 , 	0x08 , 	0x00 , 	
-0x00 , 	0x7F , 	0xF0 , 	0x00 , 	
-0x00 , 	0x80 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
-0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
 0x00 , 	0x00 , 	0x00 , 	0x00 , 	
@@ -1468,7 +1828,62 @@ See also 0_template.hex file
 
 Parameter data for: IC 1 (Binary format starting at parameter address 0)
 00000000	10000000	00000000	00000000	
+00000000	00000001	00010011	10011101	
+00000000	00000010	00100111	00111010	
+00000000	11011100	10110110	10100001	
+00000000	00000001	00010011	10011101	
+00001111	10011110	11111010	11101010	
+00000000	00000001	00010011	10011101	
+00000000	00000010	00100111	00111010	
+00000000	11011100	10110110	10100001	
+00000000	00000001	00010011	10011101	
+00001111	10011110	11111010	11101010	
+00000000	01110010	00100011	11111010	
+00001111	00011011	10111000	00001100	
+00000000	11100010	11000110	10100110	
+00000000	01110010	00100011	11111010	
+00001111	10011010	00110110	10111111	
+00000000	01110010	00100011	11111010	
+00001111	00011011	10111000	00001100	
+00000000	11100010	11000110	10100110	
+00000000	01110010	00100011	11111010	
+00001111	10011010	00110110	10111111	
 00000000	10000000	00000000	00000000	
+00000000	00000001	00010011	10011101	
+00000000	00000010	00100111	00111010	
+00000000	11011100	10110110	10100001	
+00000000	00000001	00010011	10011101	
+00001111	10011110	11111010	11101010	
+00000000	00000001	00010011	10011101	
+00000000	00000010	00100111	00111010	
+00000000	11011100	10110110	10100001	
+00000000	00000001	00010011	10011101	
+00001111	10011110	11111010	11101010	
+00000000	01110010	00100011	11111010	
+00001111	00011011	10111000	00001100	
+00000000	11100010	11000110	10100110	
+00000000	01110010	00100011	11111010	
+00001111	10011010	00110110	10111111	
+00000000	01110010	00100011	11111010	
+00001111	00011011	10111000	00001100	
+00000000	11100010	11000110	10100110	
+00000000	01110010	00100011	11111010	
+00001111	10011010	00110110	10111111	
+00001111	11111110	00101011	11100011	
+00000000	00100010	10111110	00101100	
+00001111	11101010	10101010	10101011	
+00000000	01101010	10101010	10101011	
+00001111	10011010	01101001	10100111	
+00000000	11111101	11110111	11011111	
+00001000	00111100	01101100	00100000	
+00000011	11110101	10101010	00100011	
+00000001	10000000	00000000	00000000	
+00000001	00000000	00000000	00000000	
+00000000	00110011	00110011	00110011	
+00000000	10000000	00000000	00000000	
+00000000	00000000	00000001	10010010	
+00000000	00000000	00001000	00000000	
+00000000	01111111	11110000	00000000	
 00000000	01000000	00000000	00000000	
 00001111	11111110	00101011	11100011	
 00000000	00100010	10111110	00101100	
@@ -1500,62 +1915,7 @@ Parameter data for: IC 1 (Binary format starting at parameter address 0)
 00000000	00000000	00000001	10010010	
 00000000	00000000	00001000	00000000	
 00000000	01111111	11110000	00000000	
-00001111	11111110	00101011	11100011	
-00000000	00100010	10111110	00101100	
-00001111	11101010	10101010	10101011	
-00000000	01101010	10101010	10101011	
-00001111	10011010	01101001	10100111	
-00000000	11111101	11110111	11011111	
-00001000	00111100	01101100	00100000	
-00000011	11110101	10101010	00100011	
-00000001	10000000	00000000	00000000	
-00000001	00000000	00000000	00000000	
-00000000	00110011	00110011	00110011	
 00000000	10000000	00000000	00000000	
-00000000	00000000	00000001	10010010	
-00000000	00000000	00001000	00000000	
-00000000	01111111	11110000	00000000	
-00000000	10000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
-00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	
 00000000	00000000	00000000	00000000	

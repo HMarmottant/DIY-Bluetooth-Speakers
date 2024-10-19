@@ -1,7 +1,7 @@
 /*
  * File:           E:\Documents\DIY Bluetooth Speakers\DSP\Custom_Config\SigmaStudio_project\Export\0_template_IC_2_PARAM.h
  *
- * Created:        Saturday, October 19, 2024 2:20:11 PM
+ * Created:        Saturday, October 19, 2024 5:03:03 PM
  * Description:    0_template:IC 2 parameter RAM definitions.
  *
  * This software is distributed in the hope that it will be useful,

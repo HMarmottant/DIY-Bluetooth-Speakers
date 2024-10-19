@@ -17,28 +17,28 @@
 <NetList>
     <IC name=" IC 1 " type="DSPSigma100">
         <Schematic>
-            <Algorithm name="ICSigma100In1" friendlyname="170x\140x input " cell="Input1 " location="{X=98, Y=232} " Growth="10 " GrowthB="0 " FS="48000">
+            <Algorithm name="ICSigma100In1" friendlyname="170x\140x input " cell="Input1 " location="{X=90, Y=196} " Growth="10 " GrowthB="0 " FS="48000">
                 <Link pin="O_C0_A0_P1_out" dir="out" link="Link6" />
-                <Link pin="O_C0_A0_P2_out" dir="out" link="Link7" />
+                <Link pin="O_C0_A0_P2_out" dir="out" link="Link9" />
             </Algorithm>
-            <Algorithm name="SingleCtrlSplit2" friendlyname="Splitter Single " cell="S Splitter1_2 " location="{X=216, Y=183.642} " Growth="2 " GrowthB="0">
-                <Link pin="I_C132_A0_P1_in" dir="in" link="Link6" />
-                <Link pin="O_C132_A0_P2_out" dir="out" link="Link8" />
-                <Link pin="O_C132_A0_P3_out" dir="out" link="Link10" />
+            <Algorithm name="CrossoverFilter2WayAlgDP1" friendlyname="2-Way Crossover Filter - Double Precision " cell="Crossover1 " location="{X=215, Y=195} " Growth="0 " GrowthB="0">
+                <Link pin="I_C16_A0_P1_in" dir="in" link="Link6" />
+                <Link pin="O_C16_A0_P2_out" dir="out" link="Link8" />
+                <Link pin="O_C16_A0_P3_out" dir="out" link="Link7" />
             </Algorithm>
-            <Algorithm name="SingleCtrlSplit3" friendlyname="Splitter Single " cell="S Splitter1_3 " location="{X=218, Y=317.5926} " Growth="2 " GrowthB="0">
-                <Link pin="I_C136_A0_P1_in" dir="in" link="Link7" />
-                <Link pin="O_C136_A0_P2_out" dir="out" link="Link9" />
-                <Link pin="O_C136_A0_P3_out" dir="out" link="Link11" />
-            </Algorithm>
-            <Algorithm name="SingleCtrlMixer19401" friendlyname="Signal MixerC " cell="Mg1 " location="{X=395, Y=164} " Growth="2 " GrowthB="0">
-                <Link pin="I_C104_A0_P2_in" dir="in" link="Link8" />
-                <Link pin="I_C104_A0_P3_in" dir="in" link="Link9" />
-                <Link pin="O_C104_A0_P1_out" dir="out" link="Link3" />
+            <Algorithm name="CrossoverFilter2WayAlgDP2" friendlyname="2-Way Crossover Filter - Double Precision " cell="Crossover1_2 " location="{X=217, Y=281} " Growth="0 " GrowthB="0">
+                <Link pin="I_C44_A0_P1_in" dir="in" link="Link9" />
+                <Link pin="O_C44_A0_P2_out" dir="out" link="Link10" />
+                <Link pin="O_C44_A0_P3_out" dir="out" link="Link11" />
             </Algorithm>
             <Algorithm name="limiterAlg1" friendlyname="Limiter with Indicator " cell="Limiter 1 " location="{X=538, Y=278} " Growth="0 " GrowthB="0">
-                <Link pin="I_C108_A0_P1_in" dir="in" link="Link10" />
+                <Link pin="I_C108_A0_P1_in" dir="in" link="Link7" />
                 <Link pin="O_C108_A0_P2_out" dir="out" link="Link4" />
+            </Algorithm>
+            <Algorithm name="SingleCtrlMixer19401" friendlyname="Signal MixerC " cell="Mg1 " location="{X=413, Y=156} " Growth="2 " GrowthB="0">
+                <Link pin="I_C104_A0_P2_in" dir="in" link="Link8" />
+                <Link pin="I_C104_A0_P3_in" dir="in" link="Link10" />
+                <Link pin="O_C104_A0_P1_out" dir="out" link="Link3" />
             </Algorithm>
             <Algorithm name="limiterAlg2" friendlyname="Limiter with Indicator " cell="Limiter 1_2 " location="{X=538, Y=417} " Growth="0 " GrowthB="0">
                 <Link pin="I_C113_A0_P1_in" dir="in" link="Link11" />
